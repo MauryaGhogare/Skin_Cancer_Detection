@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Prediction Result</title>
+     <link rel="stylesheet" href="static/css/result.css">
+ </head>
+ <body>
+     <div class="container">
+         <h1>Prediction Result</h1>
+         <p><strong>Prediction:</strong> {{ prediction }}</p>
+         <p><strong>Benign Score:</strong> {{ (benign_score * 100) | round(2) }}%</p>
+         <p><strong>Malignant Score:</strong> {{ (malignant_score * 100) | round(2) }}%</p>
+         <img src="{{ image_path }}" alt="Uploaded Image" width="300px">
+         <br><a href="/">Try another image</a>
+     </div>
+ </body>
+ </html>
+ 
