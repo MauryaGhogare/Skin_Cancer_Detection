@@ -58,6 +58,4 @@ The dataset is highly imbalanced, with approximately 99% benign and 1% malignant
 - Incorporates both tabular metadata and image data.
 - Images are normalized and resized before being fed into the model.
 - Tabular features are preprocessed and concatenated with image embeddings for classification.
-
-
-
+  
