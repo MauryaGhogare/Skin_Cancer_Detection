@@ -59,11 +59,5 @@ The dataset is highly imbalanced, with approximately 99% benign and 1% malignant
 - Images are normalized and resized before being fed into the model.
 - Tabular features are preprocessed and concatenated with image embeddings for classification.
 
-## Usage
-To use this dataset, ensure you have the necessary libraries installed (e.g., TensorFlow, PyTorch, pandas, etc.) and follow the provided scripts for training and evaluation.
 
-## License
-This dataset is provided for research purposes. Please refer to the accompanying license file for more details.
 
-## Acknowledgments
-We thank all contributors and participants of the SLICE-3D Challenge for their efforts in advancing skin lesion classification research.
