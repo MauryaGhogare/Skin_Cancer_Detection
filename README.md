@@ -51,3 +51,4 @@ The dataset is highly imbalanced, with approximately 99% benign and 1% malignant
 ### Model Architecture
 - **EfficientNetV2Backbone**: Utilized for feature extraction from lesion images.
   
+![Skin Cancer Detection Output](https://github.com/MauryaGhogare/Skin_Cancer_Detection/blob/main/output/skin_cancer_output_img.png?raw=true)
