@@ -48,8 +48,6 @@ The dataset is highly imbalanced, with approximately 99% benign and 1% malignant
 - **Undersampling and Oversampling Techniques**: Applied to balance the dataset.
 - **Augmentations**: Techniques such as flipping, rotation, and color shifts are used to enhance model robustness.
 
-## Model and Dataloader
-
 ### Model Architecture
 - **EfficientNetV2Backbone**: Utilized for feature extraction from lesion images.
   
