@@ -5,7 +5,6 @@ The SLICE-3D dataset is designed for skin lesion classification using images ext
 
 ### Dataset Includes:
 - **Images**: JPEG lesion images.
-- **Metadata**: A CSV file with clinical and image-based features.
 - **Binary Classification Target**: 
   - 0 for benign
   - 1 for malignant
@@ -53,9 +52,4 @@ The dataset is highly imbalanced, with approximately 99% benign and 1% malignant
 
 ### Model Architecture
 - **EfficientNetV2Backbone**: Utilized for feature extraction from lesion images.
-
-### Dataloader Setup
-- Incorporates both tabular metadata and image data.
-- Images are normalized and resized before being fed into the model.
-- Tabular features are preprocessed and concatenated with image embeddings for classification.
   
